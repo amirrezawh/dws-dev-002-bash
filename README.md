@@ -17,6 +17,6 @@ try arguments:
 -i: Interval
 -n: Number of times the command should be repeated
 ```
-Interval and Number can be set with environment variables. If you don't pass arguments and don't define environment variables, script uses default variables, which are `5` for Interval time and `12` for Number.
+Interval and Number can be set with environment variables. If you don't pass arguments and don't define environment variables(`TRY_INTERVAL` and `TRY_NUMBER`), script uses default variables, which are `5` for Interval time and `12` for Number.
 
 [@dwsclass](https://github.com/dwsclass) dws-dev-002-bash
